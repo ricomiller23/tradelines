@@ -1,0 +1,21 @@
+[
+  { "section": "I", "name": "Live Animals & Animal Products", "chapters": ["01", "02", "03", "04", "05"] },
+  { "section": "II", "name": "Vegetable Products", "chapters": ["06", "07", "08", "09", "10", "11", "12", "13", "14"] },
+  { "section": "III", "name": "Animal or Vegetable Fats & Oils", "chapters": ["15"] },
+  { "section": "IV", "name": "Prepared Foodstuffs, Beverages, Tobacco", "chapters": ["16", "17", "18", "19", "20", "21", "22", "23", "24"] },
+  { "section": "V", "name": "Mineral Products (Crude Oil, Gas, Ores)", "chapters": ["25", "26", "27"] },
+  { "section": "VI", "name": "Chemical & Allied Products", "chapters": ["28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38"] },
+  { "section": "VII", "name": "Plastics & Rubber", "chapters": ["39", "40"] },
+  { "section": "VIII", "name": "Raw Hides, Skins, Leather", "chapters": ["41", "42", "43"] },
+  { "section": "IX", "name": "Wood & Wood Products", "chapters": ["44", "45", "46"] },
+  { "section": "X", "name": "Pulp of Wood, Paper & Paperboard", "chapters": ["47", "48", "49"] },
+  { "section": "XI", "name": "Textiles & Textile Articles", "chapters": ["50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63"] },
+  { "section": "XII", "name": "Footwear, Headgear, Umbrellas", "chapters": ["64", "65", "66", "67"] },
+  { "section": "XIII", "name": "Articles of Stone, Plaster, Cement, Glass", "chapters": ["68", "69", "70"] },
+  { "section": "XIV", "name": "Pearls, Precious Stones & Metals", "chapters": ["71"] },
+  { "section": "XV", "name": "Base Metals & Articles of Base Metal (Steel, Aluminum)", "chapters": ["72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83"] },
+  { "section": "XVI", "name": "Machinery, Electrical Equipment, Electronics", "chapters": ["84", "85"] },
+  { "section": "XVII", "name": "Vehicles, Aircraft, Vessels, Transport", "chapters": ["86", "87", "88", "89"] },
+  { "section": "XVIII", "name": "Optical, Photographic, Medical Instruments", "chapters": ["90", "91", "92"] },
+  { "section": "XX", "name": "Miscellaneous Manufactured Articles", "chapters": ["94", "95", "96"] }
+]

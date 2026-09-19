@@ -1,0 +1,152 @@
+[
+  {
+    "id": "ustr",
+    "name": "Office of the US Trade Representative (USTR)",
+    "url": "https://ustr.gov/trade-topics/presidential-tariff-actions",
+    "type": "html",
+    "tier": 1,
+    "cadence": "30 min",
+    "bias_note": "Official US government trade policy executive authority; legal instruments of record.",
+    "enabled": true
+  },
+  {
+    "id": "federal_register",
+    "name": "US Federal Register (Presidential Documents & Trade Rules)",
+    "url": "https://www.federalregister.gov",
+    "type": "api",
+    "tier": 1,
+    "cadence": "15 min",
+    "bias_note": "Definitive publication of executive orders, presidential proclamations, and regulatory implementation notices.",
+    "enabled": true
+  },
+  {
+    "id": "usitc",
+    "name": "US International Trade Commission (HTS)",
+    "url": "https://www.usitc.gov",
+    "type": "html",
+    "tier": 1,
+    "cadence": "Daily",
+    "bias_note": "Official statutory tariff schedules (HTSUS) and classification rulings.",
+    "enabled": true
+  },
+  {
+    "id": "cbp",
+    "name": "US Customs & Border Protection (CSMS)",
+    "url": "https://www.cbp.gov",
+    "type": "rss",
+    "tier": 1,
+    "cadence": "30 min",
+    "bias_note": "Operational customs entry enforcement bulletins and duty collection directives.",
+    "enabled": true
+  },
+  {
+    "id": "eu_taric",
+    "name": "EU Official Journal & TARIC Database",
+    "url": "https://eur-lex.europa.eu",
+    "type": "api",
+    "tier": 1,
+    "cadence": "Daily",
+    "bias_note": "Official European Commission trade regulations, retaliatory duty lists, and trade defense measures.",
+    "enabled": true
+  },
+  {
+    "id": "fin_canada",
+    "name": "Canada Department of Finance (Trade Tariffs)",
+    "url": "https://www.canada.ca/en/department-finance.html",
+    "type": "html",
+    "tier": 1,
+    "cadence": "30 min",
+    "bias_note": "Official Canadian retaliatory tariff gazette and order-in-council notices.",
+    "enabled": true
+  },
+  {
+    "id": "china_mofcom",
+    "name": "China Ministry of Commerce (MOFCOM)",
+    "url": "http://english.mofcom.gov.cn",
+    "type": "html",
+    "tier": 1,
+    "cadence": "Daily",
+    "bias_note": "State authority for Chinese customs duties, counter-sanctions, and unreliability lists.",
+    "enabled": true
+  },
+  {
+    "id": "wto",
+    "name": "World Trade Organization (I-TIP & Disputes)",
+    "url": "https://www.wto.org",
+    "type": "api",
+    "tier": 1,
+    "cadence": "Weekly",
+    "bias_note": "Multilateral trade agreement monitoring, dispute panel reports, and bound tariff rates.",
+    "enabled": true
+  },
+  {
+    "id": "un_comtrade",
+    "name": "United Nations Comtrade Database",
+    "url": "https://comtradeapi.un.org",
+    "type": "api",
+    "tier": 1,
+    "cadence": "Daily",
+    "bias_note": "Global bilateral merchandise trade flow volumes and valuations reported by national customs.",
+    "enabled": true
+  },
+  {
+    "id": "imf_dots",
+    "name": "IMF Direction of Trade Statistics (DOTS)",
+    "url": "https://data.imf.org",
+    "type": "api",
+    "tier": 1,
+    "cadence": "Monthly",
+    "bias_note": "Bilateral trade mirror datasets used for cross-checking customs misinvoicing and transit flows.",
+    "enabled": true
+  },
+  {
+    "id": "wire_news",
+    "name": "Reuters / Bloomberg / Financial Times",
+    "url": "https://www.reuters.com/business/trade",
+    "type": "rss",
+    "tier": 2,
+    "cadence": "10 min",
+    "bias_note": "Corroboration and fast notification of policy changes; secondary to official gazettes.",
+    "enabled": true
+  },
+  {
+    "id": "atlantic_council",
+    "name": "Atlantic Council Trump Tariff Tracker",
+    "url": "https://www.atlanticcouncil.org",
+    "type": "html",
+    "tier": 2,
+    "cadence": "6 h",
+    "bias_note": "Policy think-tank tracker. Scaffolding cross-check only; items without legal instruments marked tracker-only.",
+    "enabled": true
+  },
+  {
+    "id": "trade_compliance",
+    "name": "Trade Compliance Resource Hub",
+    "url": "https://tradecomplianceresourcehub.com",
+    "type": "html",
+    "tier": 2,
+    "cadence": "6 h",
+    "bias_note": "Practitioner regulatory change log.",
+    "enabled": true
+  },
+  {
+    "id": "port_authorities",
+    "name": "Global Port Telemetry & Freight Indices",
+    "url": "https://www.portoflosangeles.org",
+    "type": "api",
+    "tier": 1,
+    "cadence": "Daily",
+    "bias_note": "Direct terminal operator throughput, dwell time, and vessel queue telemetry.",
+    "enabled": true
+  },
+  {
+    "id": "scotusblog",
+    "name": "SCOTUSblog & CourtListener (Federal Litigation)",
+    "url": "https://www.scotusblog.com",
+    "type": "rss",
+    "tier": 1,
+    "cadence": "30 min",
+    "bias_note": "Federal judicial decisions striking down or upholding presidential tariff proclamations.",
+    "enabled": true
+  }
+]

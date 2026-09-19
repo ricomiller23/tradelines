@@ -1,0 +1,7 @@
+{
+  "crons": [
+    { "path": "/api/cron/ingest",    "schedule": "*/15 * * * *" },
+    { "path": "/api/cron/recompute", "schedule": "30 * * * *" },
+    { "path": "/api/cron/digest",    "schedule": "0 13 * * *" }
+  ]
+}
