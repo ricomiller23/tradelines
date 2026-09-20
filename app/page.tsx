@@ -1,3 +1,4 @@
+import { TradeCorridorMap } from "@/components/TradeCorridorMap";
 import React from 'react';
 import Link from 'next/link';
 import { SEED_MEASURES, SEED_LEGAL_CHALLENGES } from '@/lib/fallback-data';
@@ -38,6 +39,8 @@ export default function MeasuresPage() {
           </div>
         </div>
       </div>
+
+      <TradeCorridorMap />
 
       {/* Grid: Measures + What Changed Rail */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
